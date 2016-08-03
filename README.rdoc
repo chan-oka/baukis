@@ -7,4 +7,5 @@
 
 * CentOS 6.5 または Ubuntu 14.04
 * Ruby 2.1.0
+* Rails 4.1.0
 * MySQL 5.6
