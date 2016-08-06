@@ -7,9 +7,6 @@ class ApplicationController < ActionController::Base
 
   private
   def set_layout
-  	p :controller
-  	p params
-  	p params[:controller]
   	if params[:controller].match(%r{\A(staff|admin|customer)/})
   		Regexp.last_match[1]
   	else
