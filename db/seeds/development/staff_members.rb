@@ -7,3 +7,14 @@ StaffMember.create(
 	password: 'password',
 	start_date: Date.today
 )
+
+StaffMember.create(
+	email: 'taro2@example.com',
+	family_name: '山田2',
+	given_name: '太郎2',
+	family_name_kana: 'ヤマダ2',
+	given_name_kana: 'タロウ2',
+	suspended: 1,
+	password: 'password',
+	start_date: Date.today
+)
