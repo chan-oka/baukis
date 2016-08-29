@@ -20,11 +20,11 @@ describe String do
 		end
 		example 'nilは追加できない' do 
 			s = "ABC"
-			expect { s << nuil }.to raise_error(TypeError)
+			expect { s << nil }.to raise_error(TypeError)
 		end
 		example 'nilは追加できない', :exception do 
 			s = "ABC"
-			expect { s << nuil }.to raise_error(TypeError)
+			expect { s << nil }.to raise_error(TypeError)
 		end
 	end
 end
